@@ -28,7 +28,7 @@ body {
     background-color: gray ;
     color:aliceblue;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
  header nav a:hover {
@@ -37,6 +37,10 @@ body {
 
   div img{
     max-width: 100%;
+  }
+
+  main {
+    background-color: lightblue;
   }
 
   .side-heading {
@@ -129,24 +133,25 @@ body {
   footer {
     display: flex;
     justify-content: space-between;
+    padding: 2%;
+    background-color: gray;
   }
 
   footer h1 {
-    font-size: 350%;
-    color: gray;
-    margin-left: -22px;
-    margin-bottom: 20px
+    font-size: 250%;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
   }
 
   footer nav {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+    color: black
   }
 
-  footer nav a {
-    color:black;
-    text-decoration: none;
-    text-align: right;
-    margin-top: 40px;
+  @media screen and (max-width: 768px) {
+    header, main, footer {
+      flex-direction: column;
+    }
   }
+  
