@@ -130,6 +130,33 @@ body {
     -ms-box-shadow: 0 0 10px #333;
   }
 
+  #project1img {
+    width: 250px;
+    margin-left: 600px;
+    border: 3px solid;
+    border-color: gray;
+  }
+
+  #project1img:hover {
+    border:2px solid red;  
+    box-shadow: 0 0 10px #333;  
+    -webkit-box-shadow: 0 0 10px #333;  
+    -moz-box-shadow: 0 0 10px #333;  
+    -o-box-shadow: 0 0 10px #333;  
+    -ms-box-shadow: 0 0 10px #333;
+  }
+
+  #caption3 {
+    margin-left: 230px;
+    position: relative;
+    top: -30px;
+    background-color: black;
+    color: white;
+    font-size: 135%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
   footer {
     display: flex;
     justify-content: space-between;
